@@ -25,7 +25,7 @@ def plot_graphs(history, metric):
     plt.ylabel(metric)
     plt.legend([metric, 'val_' + metric])
 
-
+#
 def model_callbacks():
     model_checkpoint_callback = tf.keras.callbacks.ModelCheckpoint(
         filepath='D:\PyCharm\DogBreed\checkpoint\checkpoint',
