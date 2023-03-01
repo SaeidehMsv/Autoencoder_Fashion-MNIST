@@ -1,8 +1,6 @@
 # Autoencoder_Fashion-MNIST
 implementation of autoencoder and trianing on Fashion-MNIST dataset
 
-Project Description: Autoencoder with Fashion MNIST Dataset and Model Checkpoint for Early Stop and Learning Rate
-
 Autoencoder is an unsupervised deep learning technique used to learn a compressed representation of input data. The Fashion MNIST dataset contains 60,000 grayscale images of 10 different types of clothing items. In this project, we will use autoencoder to learn a compressed representation of the Fashion MNIST dataset.
 
 We will use a deep neural network architecture for the autoencoder model. The input layer will have 784 neurons, which is the size of each image in the Fashion MNIST dataset. We will have two hidden layers with 128 and 64 neurons, respectively. The output layer will have 784 neurons, which is the same as the input layer.
